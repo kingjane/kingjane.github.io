@@ -1,0 +1,35 @@
+pre, #des, nav {
+    text-align: center;
+}
+
+body {
+    background-color: #efefef;
+}
+pre {
+    font-size: 100px;
+}
+
+#des {
+    vertical-align: middle;
+    margin: auto;
+    width: 40%;
+    font-family: Î¢ÈíÑÅºÚ,ËÎÌå,Arial,sans-serif;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 12px;
+    font-size: 20px;
+    font-family: "Microsoft YaHei UI";
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 100%;
+    margin: 14% auto 0px;
+    vertical-align: middle;
+}
