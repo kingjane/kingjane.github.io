@@ -1,0 +1,101 @@
+pre, #des, nav {
+    text-align: center;
+}
+body {
+    background-color: #efefef;
+}
+.container {
+    margin: 10px auto 0px;
+
+
+}
+#header {
+    margin: 50px auto -50px;
+    width: 400px;
+    height: 360px;
+    transform: scale(.5);
+    -webkit-transform: scale(.5);
+    -moz-transform: scale(.5);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+}
+#canvas {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -264px;
+}
+#canvas2 {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 400px;
+}
+#canvas.image {
+    background: #000 url(1.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+#canvas2.image2 {
+    background: #000 url(2.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+canvas {
+    position: absolute;
+    top: 0;
+    display: block;
+}
+#svg {
+    position: absolute;
+    left: -264px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+#svg2 {
+    position: absolute;
+    left: 400px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+pre {
+    font-size: 100px;
+}
+#des {
+    vertical-align: middle;
+    margin: 50px auto 0;
+    width: 40%;
+    font-family: Microsoft YaHei UI,ËÎÌו,Arial,sans-serif;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    margin-left: 12px;
+    font-size: 20px;
+    font-family: Microsoft YaHei UI;
+}
+a:hover {
+    text-decoration: underline;
+}
+#particles-js{
+    width: 100%;
+    height: 100%;
+    background-color: #b61924;
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
